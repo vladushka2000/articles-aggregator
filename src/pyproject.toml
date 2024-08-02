@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "articles-aggregator"
+version = "1.0.0"
+description = "Агрегатор статей"
+authors = ["vladushka2000"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.0"
+alembic = "^1.13.2"
+strawberry-graphql = "^0.237.3"
+asyncpg = "^0.29.0"
+redis = "^5.0.8"
+dependency-injector = "^4.41.0"
+passlib = "^1.7.4"
+python-dotenv = "^1.0.1"
+pydantic-settings = "^2.4.0"
+pyjwt = "^2.9.0"
+apscheduler = "^3.10.4"
+uvicorn = "^0.30.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
