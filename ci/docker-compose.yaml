@@ -64,4 +64,4 @@ services:
     ports:
       - 7777:7777
 volumes:
-    postgres:
+    db:
